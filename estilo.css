@@ -1,0 +1,81 @@
+/*zerando a margem*/
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/*cor do site*/
+body {
+    background-color: rgb(30, 44, 44);
+}
+
+/*estilizando as imagens */
+#imagem {
+    border: 5px solid black;
+    margin-bottom: 60px;
+    padding-bottom: 40px;
+    text-align: center;
+    background-color: rgb(20, 25, 23);
+    text-align: center;
+}
+
+/*seção*/
+#texto-1 {
+    color: rgb(247, 225, 123);
+    background-color: white;
+    border: 5px dashed black;
+    padding: 5px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    margin: 20px;
+    top: 25px;
+}
+#texto-2 {
+    color: rgb(247, 225, 123);
+    background-color: rgb(20, 25, 23);
+    border: 5px solid black;
+    padding: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    margin: 20px;
+    top: 25px;
+    text-align: center;
+}
+
+/*estilizando o texto*/
+#texto-1 p {
+    color: black;
+}
+
+/*centralizando os titulos*/
+#titulo-1 {
+    padding-top: 20px;
+    text-align: center;
+}
+
+#titulo-2 {
+    text-align: center;
+}
+
+/*links nao visitados*/
+a:link{
+    color: blue;
+}
+
+ /*links visitados*/
+a:visited {
+    color:rebeccapurple;
+}
+
+/*estilizando os links*/
+a:hover {
+    color: rgb(247, 225, 123);
+}
+
+a:active {
+    color: red;
+}
